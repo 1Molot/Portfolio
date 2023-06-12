@@ -15,7 +15,7 @@ function App() {
             <Header/>
             <main>
                 <MainInform/>
-                <Skills text={"text"}/>
+                <Skills />
                 <Works />
                 <Remote />
                 <Contacts/>

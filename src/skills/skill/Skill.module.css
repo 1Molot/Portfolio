@@ -1,7 +1,6 @@
 .skill {
     width: 250px;
     display: flex;
-    /*background-color: #f7f7f7;*/
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -11,67 +10,38 @@
     letter-spacing: 1px;
     margin: 0 0 5px;
     line-height: 1.2;
-    /*color: #fff;*/
-    animation: text-flicker-in-glow 15s linear both;
-    /*transform: translateX(0px);*/
-    /*animation: float 6s ease-out infinite;*/
+    animation: pulse 10s linear infinite;
 }
 
 .icon {
     height: 60px;
     width: 60px;
-    /*background-color: #eeeef5;*/
     object-fit: cover;
     padding:5px;
 }
-@keyframes text-flicker-in-glow {
+@keyframes pulse {
     0% {
+        transform: scale(0.5);
         opacity: 0;
     }
-    10% {
-        opacity: 0.5;
-        text-shadow: none;
-    }
-
-    20% {
-        opacity: 0.6;
-        text-shadow: none;
-    }
-    30.1% {
-        opacity: 0.7;
-        text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
-    }
-    60.6% {
-        opacity: 0.8;
-        text-shadow: none;
-    }
-    70% {
-        opacity: 0.9;
-        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    50% {
+        opacity: 1;
     }
     100% {
-        opacity: 1;
-        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+        transform: scale(1.2);
+        opacity: 0;
     }
 }
 
-/*@keyframes float {*/
-/*    0% {*/
-/*        transform: translateY(0px);*/
-/*    }*/
-/*    50% {*/
-/*        transform: translateY(-20px);*/
-/*    }*/
-/*    100% {*/
-/*        transform: translateY(0px);*/
-/*    }*/
-/*}*/
-
 .iconImg {
     width: 100%;
+    transition: transform .4s ease;
+}
+
+.iconImg:hover {
+    transform: rotate(45deg);
 }
 
 .description {
     width: 100%;
-
 }

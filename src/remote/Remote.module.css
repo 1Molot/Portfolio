@@ -1,33 +1,22 @@
 
 .remoteBlock {
-    /*height: 100vh;*/
     background-color: #343a40;
 }
 
-
 .remo {
     text-align: center;
-    /*font-weight: 300;*/
     color: #fff;
     text-transform: capitalize;
     font-family: 'Josefin Sans', sans-serif;
-    /*margin: 0;*/
     font-size: 22px;
     line-height: 1.2;
     letter-spacing: 3px;
-    /*margin: 0 auto;*/
-    /*position: relative;*/
-
 }
 
 .remoteContainer {
     justify-content: flex-start;
     flex-direction: column;
-    /*background-color: #343a40;*/
-
 }
-
-
 
 .remoBtn {
     width: fit-content;
@@ -48,11 +37,6 @@
 }
 
 .remoBtn:hover {
-    /*background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));*/
     background:#F35C16FF;
     outline-offset:3px;
 }
-
-/*.remoBtn:active {*/
-/*    color: #5ac24e;*/
-/*}*/

@@ -1,6 +1,4 @@
 .contactsBlock {
-    /*height: 100vh;*/
-    /*background-color: #d4ffc0;*/
     background-color: #343a40;
     padding: 40px 0;
 }
@@ -11,8 +9,6 @@
 }
 
 .contactForm {
-    /*width: 400px;*/
-    /*margin: 0 auto;*/
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -41,11 +37,7 @@
 }
 
 .submitBtn:is(:hover,:focus) {
-    /*background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));*/
     background:#F35C16FF;
     outline-offset:3px;
-
 }
-/*.submitBtn:active {*/
-/*    color: #5ac24e;*/
-/*}*/
+

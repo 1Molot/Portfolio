@@ -1,7 +1,5 @@
 import React from 'react';
 import style from './Title.module.css';
-import {skillPropsType} from "../../../skills/skill/Skill";
-
 
 export type titlePropsType = {
     text:string
@@ -23,7 +21,6 @@ export const Title = (props:titlePropsType) => {
     ]
 
     return (
-
         <div className={style.title}>
             <h2>{props.text}</h2>
         </div>

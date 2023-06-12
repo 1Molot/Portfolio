@@ -1,24 +1,18 @@
 .mainBlock {
     height: 100vh;
-    /*background-color: #ffd4f0;*/
     background-color: #343a40;
 }
 
-
 .text {
     width: 300px;
-    /*background-color: #f7f7f7;*/
     padding-left: 10px;
     margin-left: 30px;
 }
 
-
 span {
-
     font-weight: bold;
     text-transform: uppercase;
-    animation: .5s 0s 1 text normal both running linear;
-
+    animation: 10s text infinite;
 }
 
 @keyframes text {
@@ -44,11 +38,9 @@ span {
     }
 }
 
-
 .photo {
     width: 300px;
     height: 400px;
-    /*background-color: #f7f7f7;*/
     transform: translateX(0px);
     animation: float 6s ease-out infinite;
 }
@@ -64,7 +56,6 @@ span {
         transform: translateY(0px);
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .photo {

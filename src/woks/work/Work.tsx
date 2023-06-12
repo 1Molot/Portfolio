@@ -1,15 +1,14 @@
 import React from 'react';
 import style from './Work.module.css';
-import photo from '../../assets/img/photo.jpg'
 
 export type WorkPropsType = {
     title: string
-    description:string
+    description: string
     img: string | undefined
     alt: string
 }
 
-export const Work = ({title,description,img,alt}:WorkPropsType) => {
+export const Work = ({title, description, img, alt}: WorkPropsType) => {
 
     return (
         <div className={style.work}>
@@ -19,8 +18,8 @@ export const Work = ({title,description,img,alt}:WorkPropsType) => {
                 <div className={style.background}/>
             </div>
             <div className={style.workInfo}>
-            <h3 className={style.workTitle}>{title}</h3>
-            <span className={style.workDescription}>{description}</span>
+                <h3 className={style.workTitle}>{title}</h3>
+                <p className={style.workDescription}>{description}</p>
             </div>
         </div>
     )

@@ -1,6 +1,5 @@
 
 .title {
-    /*background-color: #eeeef5;*/
     font-weight: 300;
     color: #fff;
     text-transform: capitalize;
@@ -14,11 +13,6 @@
     text-align: center;
 }
 
-.title h2 {
-    /*margin-bottom: 30px;*/
-    /*margin-bottom: 30px;*/
-}
-
 .title::before {
     content: '';
     background: #5ac24e;
@@ -28,11 +22,5 @@
     bottom: 0px;
     left: 50%;
     transform: translate(-50%,50%);
-    /*text-align: center;*/
 }
-/*@media screen and (max-width: 768px) {*/
-/*     .title {*/
-/*        !*white-space: nowrap;*!*/
-/*        font-size: 23px;*/
-/*    }*/
-/*}*/
+
