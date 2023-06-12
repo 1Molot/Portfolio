@@ -1,0 +1,63 @@
+.skill {
+    width: 250px;
+    display: flex;
+    /*background-color: #f7f7f7;*/
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
+    /*color: #fff;*/
+    animation: text-flicker-in-glow 20s linear both;
+
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    /*background-color: #eeeef5;*/
+    object-fit: cover;
+    padding:5px;
+}
+@keyframes text-flicker-in-glow {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.5;
+        text-shadow: none;
+    }
+
+    20% {
+        opacity: 0.6;
+        text-shadow: none;
+    }
+    30.1% {
+        opacity: 0.7;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+    60.6% {
+        opacity: 0.8;
+        text-shadow: none;
+    }
+    70% {
+        opacity: 0.9;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+}
+.iconImg {
+    width: 100%;
+}
+
+.description {
+    width: 100%;
+
+}

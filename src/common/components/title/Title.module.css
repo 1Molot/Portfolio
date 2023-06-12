@@ -1,0 +1,37 @@
+
+.title {
+    /*background-color: #eeeef5;*/
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    /*margin: 0;*/
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title h2 {
+    /*margin-bottom: 30px;*/
+    /*margin-bottom: 30px;*/
+}
+
+.title::before {
+    content: '';
+    background: #5ac24e;
+    width: 55px;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    /*text-align: center;*/
+}
+/*@media screen and (max-width: 768px) {*/
+/*     .title {*/
+/*        !*white-space: nowrap;*!*/
+/*        font-size: 23px;*/
+/*    }*/
+/*}*/
