@@ -1,7 +1,8 @@
 .contactsBlock {
-    height: 100vh;
+    /*height: 100vh;*/
     /*background-color: #d4ffc0;*/
     background-color: #343a40;
+    padding: 40px 0;
 }
 
 .contactsContainer {
@@ -36,13 +37,15 @@
     line-height: 1.75;
     padding: 8px 10px;
     text-transform: uppercase;
-
+    transition: all 0.2s ease-in;
 }
 
 .submitBtn:is(:hover,:focus) {
-    background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));
+    /*background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));*/
+    background:#F35C16FF;
     outline-offset:3px;
+
 }
-.submitBtn:active {
-    color: #5ac24e;
-}
+/*.submitBtn:active {*/
+/*    color: #5ac24e;*/
+/*}*/

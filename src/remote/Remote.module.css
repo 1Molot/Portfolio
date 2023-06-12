@@ -44,12 +44,15 @@
     padding: 8px 10px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    transition: all 0.2s ease-in;
 }
 
 .remoBtn:hover {
-    background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));
+    /*background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));*/
+    background:#F35C16FF;
+    outline-offset:3px;
 }
 
-.remoBtn:active {
-    color: #5ac24e;
-}
+/*.remoBtn:active {*/
+/*    color: #5ac24e;*/
+/*}*/

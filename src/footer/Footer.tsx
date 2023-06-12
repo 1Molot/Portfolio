@@ -53,7 +53,7 @@ export const Footer = (FooterPropsType: any) => {
                     {
                         iconFooter.map((el,index) => {
                             return(
-                                <li key={index}>
+                                <li key={index} >
                                     <a target={'_blank'} href={el.link}>
                                         {/*{el.title}*/}
                                         <img style={ { width: 80, height: 50 } } src={el.img} alt={el.alt}/>

@@ -4,8 +4,22 @@
     /*width: fit-content;*/
     display: flex;
     /*justify-content: space-between;*/
-    flex-direction: row-reverse;
+    flex-direction: row;
 
+}
+.logo {
+    font-weight: bold;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+}
+.logoPhoto {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
 }
 /*.navLogo {*/
 
@@ -17,7 +31,7 @@
     list-style: none;
     /*margin: 0 0 0 auto;*/
     /*margin: 0 auto;*/
-    padding: 0;
+    padding: 5px;
     display: flex;
     gap: 10px;
     width: fit-content;
@@ -29,10 +43,17 @@
 }
 .linksList a {
     color: #fff;
+    transition: 0.2s all ease;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .linksList a:hover {
-    background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));
+    /*background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(50, 100%, 50%));*/
+    text-shadow: rgba(243, 92, 22, 0.54) -3px 0, rgba(255, 213, 0, 0.55) 3px 0;
+    transition: 0.2s all ease;
 }
 
 .linksList a:active {

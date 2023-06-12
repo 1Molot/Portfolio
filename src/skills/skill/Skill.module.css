@@ -12,8 +12,9 @@
     margin: 0 0 5px;
     line-height: 1.2;
     /*color: #fff;*/
-    animation: text-flicker-in-glow 20s linear both;
-
+    animation: text-flicker-in-glow 15s linear both;
+    /*transform: translateX(0px);*/
+    /*animation: float 6s ease-out infinite;*/
 }
 
 .icon {
@@ -53,6 +54,19 @@
         text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
     }
 }
+
+/*@keyframes float {*/
+/*    0% {*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*    50% {*/
+/*        transform: translateY(-20px);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*}*/
+
 .iconImg {
     width: 100%;
 }
