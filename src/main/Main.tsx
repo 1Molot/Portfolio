@@ -24,7 +24,6 @@ const name =() => {
     }
 }
 
-
 useEffect(() => {
     name()
 }, [])
