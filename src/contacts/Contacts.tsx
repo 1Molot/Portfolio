@@ -10,9 +10,9 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title text={'Contacts'}/>
                 <form className={style.contactForm}>
-                    <input placeholder={'Name'} type='text'/>
-                    <input placeholder={'Email'} type='text'/>
-                    <textarea placeholder={'Message'}/>
+                    <input placeholder={'Name'} type='text' className={style.colorText}/>
+                    <input placeholder={'Email'} type='text'className={style.colorText}/>
+                    <textarea placeholder={'Message'} className={style.colorText}/>
                     <button type='submit' className={style.submitBtn}>Send message</button>
                 </form>
             </div>
