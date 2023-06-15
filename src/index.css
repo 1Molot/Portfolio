@@ -21,7 +21,7 @@ code {
   text-align: center;
 }
 
-#content span:hover {
+#content .animated-span:hover {
   transform: translatey(-1rem);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -11,6 +11,7 @@ export const MainInform = () => {
         // @ts-ignore
         for (let i in [...text]) {
             let letter = document.createElement('span')
+            letter.classList.add('animated-span')
             // @ts-ignore
             letter.textContent = [...text][i]
             // @ts-ignore

@@ -12,7 +12,7 @@ import GitHub from "../assets/img/GitHub.svg";
 import RestApi from "../assets/img/RestApi.svg";
 import Storybook from "../assets/img/Storybook.svg";
 import Sass from "../assets/img/Sass.svg";
-import Tdd from "../assets/img/Tdd.svg";
+import Jest from "../assets/img/Jest.svg";
 import Material from "../assets/img/Material.svg";
 import {Title} from "../common/components/title/Title";
 
@@ -61,8 +61,8 @@ export const Skills = () => {
             img: `${Sass}`,
             alt: 'Sass'
         }, {
-            title: 'Tdd ',
-            img: `${Tdd}`,
+            title: 'Jest ',
+            img: `${Jest}`,
             alt: 'Tdd'
         }, {
             title: 'MaterialUi ',

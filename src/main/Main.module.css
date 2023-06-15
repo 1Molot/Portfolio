@@ -1,6 +1,7 @@
 .mainBlock {
     height: 100vh;
     background-color: #343a40;
+    padding-bottom: 30px;
 }
 
 .text {

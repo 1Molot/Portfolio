@@ -3,19 +3,22 @@
     background-color: #343a40;
 }
 
-.remo {
-    text-align: center;
-    color: #fff;
-    text-transform: capitalize;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 22px;
-    line-height: 1.2;
-    letter-spacing: 3px;
-}
+/*.remo {*/
+/*    text-align: center;*/
+/*    color: #fff;*/
+/*    text-transform: capitalize;*/
+/*    font-family: 'Josefin Sans', sans-serif;*/
+/*    font-size: 22px;*/
+/*    line-height: 1.2;*/
+/*    letter-spacing: 3px;*/
+/*    margin-top: 30px;*/
+/*}*/
 
 .remoteContainer {
     justify-content: flex-start;
     flex-direction: column;
+    /*margin-top: 30px;*/
+    padding-bottom: 30px;
 }
 
 .remoBtn {
@@ -28,12 +31,14 @@
     cursor: pointer;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: .5px;
     line-height: 1.75;
     padding: 8px 10px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     transition: all 0.2s ease-in;
+    margin-top: 30px;
+
 }
 
 .remoBtn:hover {
