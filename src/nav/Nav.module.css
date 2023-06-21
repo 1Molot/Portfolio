@@ -22,6 +22,21 @@
     margin-top: -3px;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .logoPhoto {
+        animation: logoPhoto infinite 20s linear;
+    }
+}
+
+@keyframes logoPhoto {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .linksList {
     list-style: none;
     padding: 5px;
@@ -44,7 +59,7 @@
 }
 
 .linksList a:hover {
-    text-shadow: rgba(243, 92, 22, 0.54) -3px 0, rgba(255, 213, 0, 0.55) 3px 0;
+    text-shadow: rgb(10, 77, 87) -3px 0, rgb(90, 194, 78) 3px 0;
     transition: 0.2s all ease;
 }
 
