@@ -86,9 +86,9 @@ span {
         margin: 0;
     }
 
-    .h2Text {
-        padding-left: 25px;
-    }
+    /*.h2Text {*/
+    /*    padding-left: 25px;*/
+    /*}*/
 
     .mainContainer {
         justify-content: center;
