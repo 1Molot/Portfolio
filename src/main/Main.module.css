@@ -5,10 +5,20 @@
 }
 
 .text {
-    width: 300px;
+    width: 500px;
     padding-left: 10px;
     margin-left: 30px;
 }
+
+.h2Text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #fff;
+    padding-left: 25px;
+}
+
 
 span {
     font-weight: bold;
@@ -44,7 +54,7 @@ span {
     height: 400px;
     object-fit: cover;
     transform: translateX(0px);
-    animation: float 6s ease-out infinite;
+    animation: float 7s ease-out infinite;
 }
 
 @keyframes float {
@@ -52,10 +62,16 @@ span {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-40px);
+        transform: translateY(-30px);
     }
     100% {
         transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .mainContainer {
+        justify-content: center;
     }
 }
 
@@ -70,9 +86,14 @@ span {
         margin: 0;
     }
 
+    .h2Text {
+        padding-left: 28px;
+    }
+
     .mainContainer {
         justify-content: center;
     }
+
     .letter {
         font-size: 18px;
     }

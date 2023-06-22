@@ -32,6 +32,7 @@ export const MainInform = () => {
         <section className={style.mainBlock}>
             <div className={`${style.mainContainer} ${styleContainer.container}`}>
                 <div className={style.text}>
+                    <h2 className={style.h2Text}>Hi There</h2>
                     <div id="content"/>
                 </div>
                 <img className={style.photo} src={myPhoto} alt={'myPhoto'}>
