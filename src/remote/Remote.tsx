@@ -11,7 +11,7 @@ export const Remote = () => {
                 <Title text={'Considering Remote Work Options'}/>
                 {/*<h3 className={style.remo}>Considering Remote Work Options</h3>*/}
                 <form>
-                <button type='submit' className={style.remoBtn}>Hire me</button>
+                <button className={style.remoBtn}>Hire me</button>
                 </form>
             </div>
         </section>

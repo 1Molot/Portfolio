@@ -11,7 +11,7 @@ export const Contacts = () => {
                 <Title text={'Contacts'}/>
                 <form className={style.contactForm}>
                     <input placeholder={'Name'} type='text' className={style.colorText}/>
-                    <input placeholder={'Email'} type='text'className={style.colorText}/>
+                    <input placeholder={'Email'} type='text' className={style.colorText}/>
                     <textarea placeholder={'Message'} className={style.colorText}/>
                     <button type='submit' className={style.submitBtn}>Send message</button>
                 </form>

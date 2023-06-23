@@ -35,8 +35,11 @@ export const MainInform = () => {
                     <h2 className={style.h2Text}>Hi There</h2>
                     <div id="content"/>
                 </div>
-                <img className={style.photo} src={myPhoto} alt={'myPhoto'}>
-                </img>
+                <div className={style.photo}>
+                    <img src={myPhoto} alt={'myPhoto'}>
+                    </img>
+                </div>
+
             </div>
         </section>
     )
