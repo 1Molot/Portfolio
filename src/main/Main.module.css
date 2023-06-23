@@ -5,7 +5,7 @@
 }
 
 .text {
-    width: 500px;
+    max-width: 500px;
     padding-left: 10px;
     margin-left: 30px;
 }
