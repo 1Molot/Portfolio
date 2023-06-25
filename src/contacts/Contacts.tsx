@@ -8,7 +8,7 @@ export const Contacts = () => {
 
     return (
         <section className={style.contactsBlock}>
-            <Fade>
+            <Fade direction={"down"}>
                 <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                     <Title text={'Contacts'}/>
                     <form className={style.contactForm}>

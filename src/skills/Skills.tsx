@@ -74,7 +74,7 @@ export const Skills = () => {
 
     return (
         <section className={style.skillsBlock}>
-            <Fade>
+            <Fade direction={"down"}>
                 <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Title text={'Skills'}/>
                     <div className={style.skills}>

@@ -5,6 +5,7 @@ import {Work} from "./work/Work";
 import {Title} from "../common/components/title/Title";
 import Social from "../assets/img/Social.jpg";
 import Todo from "../assets/img/Todo.jpg";
+import {Fade} from "react-awesome-reveal";
 
 
 export const Works = () => {
@@ -25,6 +26,7 @@ alt: 'Social'
 
     return (
         <section className={style.skillsBlock}>
+            <Fade direction={"down"}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={'My Projects'}/>
                 <div className={style.skills}>
@@ -33,6 +35,7 @@ alt: 'Social'
                         img={el.img} alt={el.alt} title={el.title} description={el.description} />)}
                 </div>
             </div>
+                </Fade>
         </section>
     )
 }

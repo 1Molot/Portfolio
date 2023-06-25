@@ -8,7 +8,7 @@ export const Remote = () => {
 
     return (
         <section className={style.remoteBlock}>
-            <Fade>
+            <Fade direction={"down"}>
                 <div className={`${styleContainer.container} ${style.remoteContainer}`}>
                     <Title text={'Considering Remote Work Options'}/>
                     {/*<h3 className={style.remo}>Considering Remote Work Options</h3>*/}

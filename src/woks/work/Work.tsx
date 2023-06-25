@@ -13,7 +13,7 @@ export const Work = ({title, description, img, alt}: WorkPropsType) => {
 
     return (
         <div className={style.work}>
-            <Fade>
+            {/*<Fade>*/}
             <div className={style.imageWrapper}>
                 <img className={style.photo} src={img} alt={alt}/>
                 <a className={style.workBtn}>Look</a>
@@ -23,7 +23,7 @@ export const Work = ({title, description, img, alt}: WorkPropsType) => {
                 <h3 className={style.workTitle}>{title}</h3>
                 <p className={style.workDescription}>{description}</p>
             </div>
-                </Fade>
+                {/*</Fade>*/}
         </div>
     )
 }

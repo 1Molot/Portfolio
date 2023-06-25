@@ -5,7 +5,7 @@ import myPhoto from "../assets/img/myPhoto.jpg";
 import {loadFull} from "tsparticles";
 import {Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
-// import {Fade} from "react-awesome-reveal";
+ import {Fade} from "react-awesome-reveal";
 
 
 
@@ -101,8 +101,7 @@ export const MainInform = () => {
                     detectRetina: true,
                 }}
             />
-            {/*<Fade >*/}
-                {/*//cascade Damping={ 0.1 }*/}
+            <Fade direction={"top-left"}>
                 <div className={`${style.mainContainer} ${styleContainer.container}`}>
                     <div className={style.text}>
                         <h2 className={style.h2Text}>Hi There</h2>
@@ -113,7 +112,7 @@ export const MainInform = () => {
                         </img>
                     </div>
                 </div>
-            {/*</Fade>*/}
+            </Fade>
         </section>
     )
 }

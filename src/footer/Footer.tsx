@@ -31,9 +31,10 @@ export const Footer = () => {
 
     return (
         <footer className={style.footerBlock}>
-            <Fade>
+
                 <div className={`${styleContainer.container} ${style.footerContainer}`}>
                     <Title text={'Sinkevich Maksim'}/>
+                    <Fade direction={"top-left"}>
                     <ul className={style.footersCentre}>
                         {
                             iconFooter.map((el, index) => {
@@ -45,14 +46,13 @@ export const Footer = () => {
                                         </a>
                                     </li>
                                 )
-
                             })
                         }
-
                     </ul>
+                    </Fade>
                     <h4 className={style.rights}>©2023 All rights reserved</h4>
                 </div>
-            </Fade>
+
         </footer>
     )
 }
