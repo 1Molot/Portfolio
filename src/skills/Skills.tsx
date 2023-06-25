@@ -15,6 +15,7 @@ import Sass from "../assets/img/Sass.svg";
 import Jest from "../assets/img/Jest.svg";
 import Material from "../assets/img/Material.svg";
 import {Title} from "../common/components/title/Title";
+import {Fade} from "react-awesome-reveal";
 
 
 export const Skills = () => {
@@ -73,14 +74,16 @@ export const Skills = () => {
 
     return (
         <section className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <Fade>
+                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Title text={'Skills'}/>
-                <div className={style.skills}>
-                    {Skills.map((el,index) => <Skill
-                        key={index}
-                        img={el.img} alt={el.alt} title={el.title}/>)}
+                    <div className={style.skills}>
+                        {Skills.map((el, index) => <Skill
+                            key={index}
+                            img={el.img} alt={el.alt} title={el.title}/>)}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </section>
     )
 }
