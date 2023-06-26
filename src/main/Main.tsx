@@ -5,8 +5,8 @@ import myPhoto from "../assets/img/myPhoto.jpg";
 import {loadFull} from "tsparticles";
 import {Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
- import {Fade} from "react-awesome-reveal";
-
+import {Fade} from "react-awesome-reveal";
+import {Tilt} from 'react-tilt'
 
 
 export const MainInform = () => {
@@ -19,6 +19,18 @@ export const MainInform = () => {
     const particlesLoaded = useCallback(async (container: any) => {
         await console.log(container);
     }, []);
+
+    const defaultOptions = {
+        reverse: false,  // reverse the tilt direction
+        max: 35,     // max tilt rotation (degrees)
+        perspective: 1000,   // Transform perspective, the lower the more extreme the tilt gets.
+        scale: 1.1,    // 2 = 200%, 1.5 = 150%, etc..
+        speed: 1000,   // Speed of the enter/exit transition
+        transition: true,   // Set a transition on enter/exit.
+        axis: null,   // What axis should be disabled. Can be X or Y.
+        reset: true,    // If the tilt effect has to be reset on exit.
+        easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+    }
 
     const name = () => {
         let text = 'I am Maksim Sinkevich Front-end Developer'
@@ -46,71 +58,72 @@ export const MainInform = () => {
 
     return (
         <section className={style.mainBlock}>
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
-                    fpsLimit: 60,
-                    interactivity: {
-                        events: {
-                            resize: true,
-                        },
-                    },
-                    particles: {
-                        color: {
-                            value: "#ffa500",
-                        },
-                        links: {
-                            color: "#ffffff",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.3,
-                            width: 1,
-                        },
-                        collisions: {
-                            enable: true,
-                        },
-                        move: {
-                            direction: "none",
-                            enable: true,
-                            outModes: {
-                                default: "bounce",
-                            },
-                            random: false,
-                            speed: 1,
-                            straight: false,
-                        },
-                        number: {
-                            density: {
-                                enable: true,
-                                area: 800,
-                            },
-                            value: 80,
-                        },
-                        opacity: {
-                            value: 0.1,
-                        },
-                        shape: {
-                            type: "circle",
-                        },
-                        size: {
-                            value: {min: 1, max: 5},
-                        },
-                    },
-                    detectRetina: true,
-                }}
-            />
             <Fade direction={"top-left"}>
                 <div className={`${style.mainContainer} ${styleContainer.container}`}>
+                    <Particles
+                        id="tsparticles"
+                        init={particlesInit}
+                        loaded={particlesLoaded}
+                        options={{
+                            fpsLimit: 60,
+                            interactivity: {
+                                events: {
+                                    resize: true,
+                                },
+                            },
+                            particles: {
+                                color: {
+                                    value: "#ffa500",
+                                },
+                                links: {
+                                    color: "#ffffff",
+                                    distance: 150,
+                                    enable: true,
+                                    opacity: 0.3,
+                                    width: 1,
+                                },
+                                collisions: {
+                                    enable: true,
+                                },
+                                move: {
+                                    direction: "none",
+                                    enable: true,
+                                    outModes: {
+                                        default: "bounce",
+                                    },
+                                    random: false,
+                                    speed: 1,
+                                    straight: false,
+                                },
+                                number: {
+                                    density: {
+                                        enable: true,
+                                        area: 800,
+                                    },
+                                    value: 80,
+                                },
+                                opacity: {
+                                    value: 0.1,
+                                },
+                                shape: {
+                                    type: "circle",
+                                },
+                                size: {
+                                    value: {min: 1, max: 5},
+                                },
+                            },
+                            detectRetina: true,
+                        }}
+                    />
                     <div className={style.text}>
                         <h2 className={style.h2Text}>Hi There</h2>
                         <div id="content"/>
                     </div>
-                    <div className={style.photo}>
-                        <img src={myPhoto} alt={'myPhoto'}>
-                        </img>
-                    </div>
+                    <Tilt options={defaultOptions} style={{marginTop: '60px'}}>
+                        <div className={style.photo}>
+                            <img src={myPhoto} alt={'myPhoto'}/>
+                        </div>
+                    </Tilt>
                 </div>
             </Fade>
         </section>

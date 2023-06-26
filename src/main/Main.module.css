@@ -2,19 +2,9 @@
     height: 100vh;
     background-color: #343a40;
     padding-bottom: 30px;
-    position: relative;
+    /*position: relative;*/
 }
 
-/*.particles {*/
-/*    position: absolute;*/
-/*    top:0;*/
-/*    left:0;*/
-/*    bottom: 0;*/
-/*    right: 0;*/
-/*    opacity: 0.3;*/
-/*    z-index: 0;*/
-/*    color: red;*/
-/*}*/
 .particles {
     position: absolute;
     top: 0;
@@ -73,7 +63,7 @@ span {
 
 .photo {
     width: 300px;
-    position: relative;
+    /*position: relative;*/
     height: 400px;
     z-index: 1;
 
