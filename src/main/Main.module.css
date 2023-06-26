@@ -3,6 +3,7 @@
     background-color: #343a40;
     padding-bottom: 30px;
     /*position: relative;*/
+    /*z-index: 4;*/
 }
 
 .particles {
@@ -66,9 +67,8 @@ span {
     /*position: relative;*/
     height: 400px;
     z-index: 1;
-
-    /*transform: translateX(0px);*/
-    /*animation: float 7s ease-out infinite;*/
+/*    transform: translateX(0px);*/
+/*    animation: float 7s ease-out infinite;*/
 }
 
 .photo img {
@@ -88,6 +88,7 @@ span {
     left: 15px;
     top: -15px;
     z-index: -1;
+    /*margin-top: 60px;*/
 }
 
 /*@keyframes float {*/
