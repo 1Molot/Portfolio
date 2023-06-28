@@ -85,8 +85,8 @@ span {
     height: 110%;
     width: 105%;
     border: 5px solid #5ac24e;
-    left: 15px;
-    top: -15px;
+    left: 12px;
+    top: -16px;
     z-index: -1;
     /*margin-top: 60px;*/
 }
