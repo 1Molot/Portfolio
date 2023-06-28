@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color:#fff;
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
@@ -17,14 +17,14 @@
     height: 60px;
     width: 60px;
     object-fit: cover;
-    padding:5px;
+    padding: 5px;
 }
 
 
 .iconImg {
     width: 100%;
     transition: transform .4s ease;
-    filter:drop-shadow(10px 8px 6px #5ac24e);
+    filter: drop-shadow(10px 8px 6px #5ac24e);
 }
 
 .iconImg:hover {

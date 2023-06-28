@@ -73,17 +73,19 @@ export const Skills = () => {
     ]
 
     return (
-        <section className={style.skillsBlock}>
-            <Fade direction={"down"}>
-                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                    <Title text={'Skills'}/>
-                    <div className={style.skills}>
-                        {Skills.map((el, index) => <Skill
-                            key={index}
-                            img={el.img} alt={el.alt} title={el.title}/>)}
-                    </div>
+        <section id="skills" className={style.skillsBlock}>
+
+            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                <Title text={'Skills'}/>
+                {/*<Fade direction={"down"}>*/}
+                <div className={style.skills}>
+                    {Skills.map((el, index) => <Skill
+                        key={index}
+                        img={el.img} alt={el.alt} title={el.title}/>)}
                 </div>
-            </Fade>
+                {/*</Fade>*/}
+            </div>
+
         </section>
     )
 }

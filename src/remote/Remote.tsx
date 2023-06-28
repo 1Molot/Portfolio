@@ -8,15 +8,15 @@ export const Remote = () => {
 
     return (
         <section className={style.remoteBlock}>
-            <Fade direction={"down"}>
+            {/*<Fade direction={"down"}>*/}
                 <div className={`${styleContainer.container} ${style.remoteContainer}`}>
-                    <Title text={'Considering Remote Work Options'}/>
-                    {/*<h3 className={style.remo}>Considering Remote Work Options</h3>*/}
+                    <Title text={'Considering Remote Project Options'}/>
+                    {/*<h3 className={style.remo}>Considering Remote Project Options</h3>*/}
                     <form>
-                        <button className={style.remoBtn}>Hire me</button>
+                        <button  className={style.remoBtn}>Hire me</button>
                     </form>
                 </div>
-            </Fade>
+            {/*</Fade>*/}
         </section>
     )
 }

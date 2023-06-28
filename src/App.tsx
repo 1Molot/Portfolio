@@ -3,7 +3,7 @@ import './App.css';
 import {Header} from "./header/Header";
 import {MainInform} from "./main/Main";
 import {Skills} from "./skills/Skills";
-import {Works} from "./woks/Works";
+import {Projects} from "./woks/Projects";
 import {Remote} from "./remote/Remote";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
@@ -15,12 +15,12 @@ function App() {
             <Header/>
             <main>
                 <MainInform/>
-                <Skills />
-                <Works />
-                <Remote />
+                <Skills/>
+                <Projects/>
+                <Remote/>
                 <Contacts/>
             </main>
-            <Footer />
+            <Footer/>
         </div>
     );
 }

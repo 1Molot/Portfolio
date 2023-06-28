@@ -57,7 +57,7 @@ export const MainInform = () => {
 
 
     return (
-        <section className={style.mainBlock}>
+        <section id="main" className={style.mainBlock}>
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -113,20 +113,20 @@ export const MainInform = () => {
                     detectRetina: true,
                 }}
             />
-                <div className={`${style.mainContainer} ${styleContainer.container}`}>
-                    <Fade direction={"top-left"}>
+            <div className={`${style.mainContainer} ${styleContainer.container}`}>
 
-                    <div className={style.text}>
-                        <h2 className={style.h2Text}>Hi There</h2>
-                        <div id="content"/>
-                    </div>
-                    <Tilt options={defaultOptions}>
-                        <div className={style.photo}>
-                            <img src={myPhoto} alt={'myPhoto'}/>
-                        </div>
-                    </Tilt>
-                    </Fade>
+                {/*<Fade direction={"top-left"}>*/}
+                <div className={style.text}>
+                    <h2 className={style.h2Text}>Hi There</h2>
+                    <div id="content"/>
                 </div>
+                <Tilt options={defaultOptions}>
+                    <div className={style.photo}>
+                        <img src={myPhoto} alt={'myPhoto'}/>
+                    </div>
+                </Tilt>
+                {/*</Fade>*/}
+            </div>
         </section>
     )
 }

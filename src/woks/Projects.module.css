@@ -19,10 +19,11 @@
     letter-spacing: 3px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .skillsContainer {
         justify-content: flex-start;
     }
+
     .skills {
         flex-direction: column;
     }

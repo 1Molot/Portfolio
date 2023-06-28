@@ -32,26 +32,26 @@ export const Footer = () => {
     return (
         <footer className={style.footerBlock}>
 
-                <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                    <Title text={'Sinkevich Maksim'}/>
-                    <Fade direction={"top-left"}>
-                    <ul className={style.footersCentre}>
-                        {
-                            iconFooter.map((el, index) => {
-                                return (
-                                    <li key={index}>
-                                        <a target={'_blank'} href={el.link}>
-                                            {/*{el.title}*/}
-                                            <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
-                                        </a>
-                                    </li>
-                                )
-                            })
-                        }
-                    </ul>
-                    </Fade>
-                    <h4 className={style.rights}>©2023 All rights reserved</h4>
-                </div>
+            <div className={`${styleContainer.container} ${style.footerContainer}`}>
+                <Title text={'Sinkevich Maksim'}/>
+                {/*<Fade direction={"top-left"}>*/}
+                <ul className={style.footersCentre}>
+                    {
+                        iconFooter.map((el, index) => {
+                            return (
+                                <li key={index}>
+                                    <a target={'_blank'} href={el.link}>
+                                        {/*{el.title}*/}
+                                        <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
+                                    </a>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+                {/*</Fade>*/}
+                <h4 className={style.rights}>©2023 All rights reserved</h4>
+            </div>
 
         </footer>
     )

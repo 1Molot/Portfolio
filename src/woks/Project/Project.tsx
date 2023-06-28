@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Work.module.css';
+import style from './Project.module.css';
 import {Fade} from "react-awesome-reveal";
 
 export type WorkPropsType = {
@@ -9,11 +9,11 @@ export type WorkPropsType = {
     alt: string
 }
 
-export const Work = ({title, description, img, alt}: WorkPropsType) => {
+export const Project = ({title, description, img, alt}: WorkPropsType) => {
 
     return (
         <div className={style.work}>
-            {/*<Fade>*/}
+            {/*<Fade direction={"down"}>*/}
             <div className={style.imageWrapper}>
                 <img className={style.photo} src={img} alt={alt}/>
                 <a className={style.workBtn}>Look</a>
@@ -23,7 +23,7 @@ export const Work = ({title, description, img, alt}: WorkPropsType) => {
                 <h3 className={style.workTitle}>{title}</h3>
                 <p className={style.workDescription}>{description}</p>
             </div>
-                {/*</Fade>*/}
+            {/*</Fade>*/}
         </div>
     )
 }
