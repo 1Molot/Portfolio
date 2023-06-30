@@ -143,6 +143,7 @@
     .linksList {
         gap: 5px;
         font-size: 14px;
+        padding: 10px 0;
     }
 
     .burgerNav {
