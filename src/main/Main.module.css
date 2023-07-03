@@ -38,6 +38,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 
@@ -112,6 +113,9 @@ span {
 /*}*/
 
 @media screen and (max-width: 1056px) {
+    .mainBlock{
+        height: 100%;
+    }
     .mainContainer {
         justify-content: center;
         align-content: center;
