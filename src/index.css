@@ -18,7 +18,7 @@ code {
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: 3px;
-  text-align: center;
+  text-align: left;
 }
 
 #content .animated-span:hover {

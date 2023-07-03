@@ -57,11 +57,13 @@
     line-height: 1.2;
     letter-spacing: 3px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .linksList a:hover {
     text-shadow: rgb(10, 77, 87) -3px 0, rgb(90, 194, 78) 3px 0;
     transition: 0.2s all ease;
+
 }
 
 .linksList a:active {
@@ -81,7 +83,9 @@
     color: #5ac24e;
     cursor: pointer;
 }
-
+.linksList .active:hover{
+    text-shadow: initial;
+}
 .textTyping {
     padding: 0;
     margin: 0;

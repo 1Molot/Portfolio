@@ -119,6 +119,8 @@ export const MainInform = () => {
                 <div className={style.text}>
                     <h2 className={style.h2Text}>Hi There</h2>
                     <div id="content"/>
+                    <p className={style.pText}>Frontend developer with knowledge in software development. Responsible, hardworking and interested in IT. Theoretical skills in designing, developing, optimizing web applications. Understand and use the principles of OOP. Strong interpersonal and communication skills, ability to work under pressure and manage multiple tasks, result and goal oriented, willingness to work, attentive and easy learning. Easily find a common language with everyone.
+                    </p>
                 </div>
                 <Tilt options={defaultOptions}>
                     <div className={style.photo}>

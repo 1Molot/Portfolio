@@ -13,8 +13,10 @@ export const Remote = () => {
                     <Title text={'Considering Remote Project Options'}/>
                     {/*<h3 className={style.remo}>Considering Remote Project Options</h3>*/}
                     <form>
-                        <button  className={style.remoBtn}>Hire me</button>
+                    <button className={style.remoBtn}>Hire me</button>
+
                     </form>
+                    {/*<a className={style.remoBtn} href="tel:+375255101830">Hire me</a>*/}
                 </div>
             {/*</Fade>*/}
         </section>
