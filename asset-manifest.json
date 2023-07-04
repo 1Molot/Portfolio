@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.214fc377.css",
-    "main.js": "/Portfolio/static/js/main.6d7eb95d.js",
+    "main.js": "/Portfolio/static/js/main.4196eace.js",
     "static/js/787.e8871c4f.chunk.js": "/Portfolio/static/js/787.e8871c4f.chunk.js",
     "static/media/myPhoto.jpg": "/Portfolio/static/media/myPhoto.0214aad0206bc1989b5d.jpg",
     "static/media/Social.jpg": "/Portfolio/static/media/Social.3085f317c95fbb38336c.jpg",
     "static/media/Todo.jpg": "/Portfolio/static/media/Todo.3c5b63b0399c42fc543d.jpg",
-    "static/media/Jest.svg": "/Portfolio/static/media/Jest.1ba09f96f00b224697295e3a7d351dfc.svg",
     "static/media/CSS.svg": "/Portfolio/static/media/CSS.de74481086c40f4b90c1e52eabacabeb.svg",
     "static/media/RestApi.svg": "/Portfolio/static/media/RestApi.c78a370b7617485ccaab4249c55a901f.svg",
     "static/media/Instagram.svg": "/Portfolio/static/media/Instagram.0b8597d27bbba4ff2738d3e76718b988.svg",
+    "static/media/Tdd.svg": "/Portfolio/static/media/Tdd.bb3fdd5fe6d2c00c782037d409b7d8f4.svg",
     "static/media/Sass.svg": "/Portfolio/static/media/Sass.eebb8c7d36e22f3f6eea5e6edfa027a3.svg",
     "static/media/Storybook.svg": "/Portfolio/static/media/Storybook.cc797724a31d7f306df8592427f9d78f.svg",
     "static/media/BurgerIcon.svg": "/Portfolio/static/media/BurgerIcon.3e212aa48946371ab39a9f87948dc462.svg",
@@ -25,11 +25,11 @@
     "static/media/JS.svg": "/Portfolio/static/media/JS.2cb10113045b7f7423443ff02d1d26d0.svg",
     "static/media/CloseIcon.svg": "/Portfolio/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
     "main.214fc377.css.map": "/Portfolio/static/css/main.214fc377.css.map",
-    "main.6d7eb95d.js.map": "/Portfolio/static/js/main.6d7eb95d.js.map",
+    "main.4196eace.js.map": "/Portfolio/static/js/main.4196eace.js.map",
     "787.e8871c4f.chunk.js.map": "/Portfolio/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.214fc377.css",
-    "static/js/main.6d7eb95d.js"
+    "static/js/main.4196eace.js"
   ]
 }
