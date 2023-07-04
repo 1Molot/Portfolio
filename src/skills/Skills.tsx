@@ -12,7 +12,7 @@ import GitHub from "../assets/img/GitHub.svg";
 import RestApi from "../assets/img/RestApi.svg";
 import Storybook from "../assets/img/Storybook.svg";
 import Sass from "../assets/img/Sass.svg";
-import Jest from "../assets/img/Jest.svg";
+import Tdd from "../assets/img/Tdd.svg";
 import Material from "../assets/img/Material.svg";
 import {Title} from "../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
@@ -62,8 +62,8 @@ export const Skills = () => {
             img: `${Sass}`,
             alt: 'Sass'
         }, {
-            title: 'Jest ',
-            img: `${Jest}`,
+            title: 'Tdd ',
+            img: `${Tdd}`,
             alt: 'Tdd'
         }, {
             title: 'MaterialUi ',
