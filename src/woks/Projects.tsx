@@ -5,7 +5,7 @@ import {Project} from "./Project/Project";
 import {Title} from "../common/components/title/Title";
 import Social from "../assets/img/Social.jpg";
 import Todo from "../assets/img/Todo.jpg";
-import {Fade} from "react-awesome-reveal";
+
 
 
 export const Projects = () => {
@@ -26,16 +26,15 @@ export const Projects = () => {
 
     return (
         <section id="projects" className={style.skillsBlock}>
-            {/*<Fade direction={"down"}>*/}
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={'My Projects'}/>
-                <div className={style.skills}>
-                    {projects.map((el, index) => <Project
-                        key={index}
-                        img={el.img} alt={el.alt} title={el.title} description={el.description}/>)}
+                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                    <Title text={'My Projects'}/>
+                    <div className={style.skills}>
+                        {projects.map((el, index) => <Project
+                            key={index}
+                            img={el.img} alt={el.alt} title={el.title} description={el.description}/>)}
+                    </div>
                 </div>
-            </div>
-            {/*</Fade>*/}
+
         </section>
     )
 }

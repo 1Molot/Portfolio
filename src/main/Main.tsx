@@ -5,8 +5,8 @@ import myPhoto from "../assets/img/myPhoto.jpg";
 import {loadFull} from "tsparticles";
 import {Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
-import {Fade} from "react-awesome-reveal";
 import {Tilt} from 'react-tilt'
+import {Reveal} from "../common/Reveal/Reveal";
 
 
 export const MainInform = () => {
@@ -114,20 +114,26 @@ export const MainInform = () => {
                 }}
             />
             <div className={`${style.mainContainer} ${styleContainer.container}`}>
-
-                {/*<Fade direction={"top-left"}>*/}
                 <div className={style.text}>
-                    <h2 className={style.h2Text}>Hi There</h2>
-                    <div id="content"/>
-                    <p className={style.pText}>Frontend developer with knowledge in software development. Responsible, hardworking and interested in IT. Theoretical skills in designing, developing, optimizing web applications. Understand and use the principles of OOP. Strong interpersonal and communication skills, ability to work under pressure and manage multiple tasks, result and goal oriented, willingness to work, attentive and easy learning. Easily find a common language with everyone.
-                    </p>
+                    <Reveal>
+                        <h2 className={style.h2Text}>Hi There</h2>
+                        <div id="content"/>
+                        <p className={style.pText}>Frontend developer with knowledge in software development.
+                            Responsible, hardworking and interested in IT. Theoretical skills in designing, developing,
+                            optimizing web applications. Understand and use the principles of OOP. Strong interpersonal
+                            and communication skills, ability to work under pressure and manage multiple tasks, result
+                            and goal oriented, willingness to work, attentive and easy learning. Easily find a common
+                            language with everyone.
+                        </p>
+                    </Reveal>
                 </div>
                 <Tilt options={defaultOptions}>
                     <div className={style.photo}>
+                        <Reveal>
                         <img src={myPhoto} alt={'myPhoto'}/>
+                        </Reveal>
                     </div>
                 </Tilt>
-                {/*</Fade>*/}
             </div>
         </section>
     )

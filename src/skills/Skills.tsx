@@ -14,8 +14,9 @@ import Storybook from "../assets/img/Storybook.svg";
 import Sass from "../assets/img/Sass.svg";
 import Tdd from "../assets/img/Tdd.svg";
 import Material from "../assets/img/Material.svg";
+import Figma from "../assets/img/Figma.svg";
 import {Title} from "../common/components/title/Title";
-import {Fade} from "react-awesome-reveal";
+import {Reveal} from "../common/Reveal/Reveal";
 
 
 export const Skills = () => {
@@ -69,23 +70,25 @@ export const Skills = () => {
             title: 'MaterialUi ',
             img: `${Material}`,
             alt: 'Material'
+        }, {
+            title: 'Figma',
+            img: `${Figma}`,
+            alt: 'Figma'
         }
     ]
 
     return (
         <section id="skills" className={style.skillsBlock}>
-
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={'Skills'}/>
-                {/*<Fade direction={"down"}>*/}
-                <div className={style.skills}>
-                    {Skills.map((el, index) => <Skill
-                        key={index}
-                        img={el.img} alt={el.alt} title={el.title}/>)}
-                </div>
-                {/*</Fade>*/}
+                <Reveal>
+                    <div className={style.skills}>
+                        {Skills.map((el, index) => <Skill
+                            key={index}
+                            img={el.img} alt={el.alt} title={el.title}/>)}
+                    </div>
+                </Reveal>
             </div>
-
         </section>
     )
 }

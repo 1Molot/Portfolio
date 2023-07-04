@@ -6,7 +6,7 @@ import GitHub from "../assets/img/GitHub.svg";
 import LinkedIn from "../assets/img/LinkedIn.svg";
 import Telegram from "../assets/img/Telegram.svg";
 import Instagram from "../assets/img/Instagram.svg";
-import {Fade} from "react-awesome-reveal";
+import {Reveal} from "../common/Reveal/Reveal";
 
 
 export const Footer = () => {
@@ -31,10 +31,9 @@ export const Footer = () => {
 
     return (
         <footer className={style.footerBlock}>
-
+            <Reveal>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <Title text={'Sinkevich Maksim'}/>
-                {/*<Fade direction={"top-left"}>*/}
                 <ul className={style.footersCentre}>
                     {
                         iconFooter.map((el, index) => {
@@ -49,10 +48,9 @@ export const Footer = () => {
                         })
                     }
                 </ul>
-                {/*</Fade>*/}
                 <p className={style.rights}>©2023 All rights reserved</p>
             </div>
-
+                </Reveal>
         </footer>
     )
 }
