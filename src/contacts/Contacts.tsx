@@ -1,8 +1,8 @@
 import React, {FormEvent, useRef} from 'react';
 import style from './Contacts.module.css';
 import styleContainer from "../common/styles/Container.module.css";
-import {Title} from "../common/components/title/Title";
-import {Reveal} from "../common/Reveal/Reveal";
+import {Title} from "../common/components/Title/Title";
+import {Reveal} from "../common/components/Reveal/Reveal";
 import {SubmitHandler, useForm} from "react-hook-form";
 import emailjs from 'emailjs-com';
 import {EmailJSResponseStatus} from "emailjs-com";

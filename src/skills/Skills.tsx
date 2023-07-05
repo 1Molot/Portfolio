@@ -15,8 +15,8 @@ import Sass from "../assets/img/Sass.svg";
 import Tdd from "../assets/img/Tdd.svg";
 import Material from "../assets/img/Material.svg";
 import Figma from "../assets/img/Figma.svg";
-import {Title} from "../common/components/title/Title";
-import {Reveal} from "../common/Reveal/Reveal";
+import {Title} from "../common/components/Title/Title";
+import {Reveal} from "../common/components/Reveal/Reveal";
 
 
 export const Skills = () => {

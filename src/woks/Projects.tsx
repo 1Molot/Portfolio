@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Projects.module.css';
 import styleContainer from './../common/styles/Container.module.css'
 import {Project} from "./Project/Project";
-import {Title} from "../common/components/title/Title";
+import {Title} from "../common/components/Title/Title";
 import Social from "../assets/img/Social.jpg";
 import Todo from "../assets/img/Todo.jpg";
 

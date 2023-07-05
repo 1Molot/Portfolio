@@ -3,7 +3,7 @@ import styleContainer from "../common/styles/Container.module.css";
 import style from './Nav.module.css';
 import ReactImg from "../assets/img/ReactImg.svg";
 import {Link} from "react-scroll";
-import {Reveal} from "../common/Reveal/Reveal";
+import {Reveal} from "../common/components/Reveal/Reveal";
 
 
 export const Nav = () => {

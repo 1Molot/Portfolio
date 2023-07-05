@@ -6,7 +6,7 @@ import {loadFull} from "tsparticles";
 import {Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import {Tilt} from 'react-tilt'
-import {Reveal} from "../common/Reveal/Reveal";
+import {Reveal} from "../common/components/Reveal/Reveal";
 
 
 export const MainInform = () => {

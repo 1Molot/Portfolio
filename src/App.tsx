@@ -7,6 +7,8 @@ import {Projects} from "./woks/Projects";
 import {Remote} from "./remote/Remote";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {GlobalToast} from "./common/components/GlobalToast/GlobalToast";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
                 <Contacts/>
             </main>
             <Footer/>
+            <GlobalToast/>
         </div>
     );
 }

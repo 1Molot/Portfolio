@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Remote.module.css';
 import styleContainer from "../common/styles/Container.module.css";
-import {Title} from "../common/components/title/Title";
+import {Title} from "../common/components/Title/Title";
 import {Fade} from "react-awesome-reveal";
 
 export const Remote = () => {

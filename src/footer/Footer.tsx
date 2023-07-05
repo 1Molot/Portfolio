@@ -1,12 +1,12 @@
 import style from './Footer.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import React from "react";
-import {Title} from "../common/components/title/Title";
+import {Title} from "../common/components/Title/Title";
 import GitHub from "../assets/img/GitHub.svg";
 import LinkedIn from "../assets/img/LinkedIn.svg";
 import Telegram from "../assets/img/Telegram.svg";
 import Instagram from "../assets/img/Instagram.svg";
-import {Reveal} from "../common/Reveal/Reveal";
+import {Reveal} from "../common/components/Reveal/Reveal";
 
 
 export const Footer = () => {
@@ -40,7 +40,7 @@ export const Footer = () => {
                             return (
                                 <li key={index}>
                                     <a target={'_blank'} href={el.link}>
-                                        {/*{el.title}*/}
+                                        {/*{el.Title}*/}
                                         <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
                                     </a>
                                 </li>

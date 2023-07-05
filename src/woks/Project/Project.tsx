@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Project.module.css';
 import {Fade} from "react-awesome-reveal";
-import {Reveal} from "../../common/Reveal/Reveal";
+import {Reveal} from "../../common/components/Reveal/Reveal";
 
 export type WorkPropsType = {
     title: string
