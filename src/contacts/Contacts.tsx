@@ -40,7 +40,7 @@ export const Contacts = () => {
     });
 
     const onSubmit: SubmitHandler<contactFormType> = (data) => {
-        const serviceId: string = 'service_f5gq2zm';
+        const serviceId: string = 'service_ltklexe';
         const templateId: string = 'template_v9x5ah5';
         const publicKey: string = 'K-ssZwNTNRixNgoSU';
 
