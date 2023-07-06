@@ -1,4 +1,4 @@
-import React, {FormEvent, useRef} from 'react';
+import React, {FormEvent, KeyboardEvent, useRef} from 'react';
 import style from './Contacts.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import {Title} from "../common/components/Title/Title";
@@ -16,13 +16,6 @@ type contactFormType = {
 };
 export const Contacts = () => {
 
-    // const ref = useRef<any>()
-    //
-    // const handleClear = (e: any) => {
-    //     e.preventDefault()
-    //     ref.current.value = ''
-    // }
-
     const emailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
     const {
@@ -38,6 +31,12 @@ export const Contacts = () => {
         },
         mode: "all"
     });
+
+    function keyEnter<T>(e: KeyboardEvent<T>) {
+        if(e.key === 'Enter') {
+            handleSubmit(onSubmit)
+        }
+    }
 
     const onSubmit: SubmitHandler<contactFormType> = (data) => {
         const serviceId: string = 'service_ltklexe';
@@ -64,6 +63,7 @@ export const Contacts = () => {
 
                         <form onSubmit={handleSubmit(onSubmit)} className={style.contactForm}>
                                     <input placeholder="Name" type="text" className={style.colorText}
+                                           onKeyDown={keyEnter<HTMLInputElement>}
                                            {...register("name", {
                                                required: "The field is required",
                                                minLength: {
@@ -74,6 +74,7 @@ export const Contacts = () => {
                                     />
                                     {errors.name && <p>{errors.name.message}</p>}
                                     <input placeholder="Email" type="text" className={style.colorText}
+                                           onKeyDown={keyEnter<HTMLInputElement>}
                                            {...register("email", {
                                                required: "This field is required",
                                                pattern: {
@@ -83,7 +84,7 @@ export const Contacts = () => {
                                            })}
                                     />
                                     {errors.email && <p>{errors.email.message}</p>}
-                                <textarea placeholder="Message" {...register("message", {required: true})} className={style.colorText}></textarea>
+                                <textarea placeholder="Message" onKeyDown={keyEnter<HTMLTextAreaElement>} {...register("message", {required: true})} className={style.colorText}></textarea>
                                 {errors.message && <p>This field is required</p>}
                                 <button  className={style.submitBtn} type="submit">
                                     Send Message
