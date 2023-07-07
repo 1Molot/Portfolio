@@ -8,23 +8,24 @@ export type WorkPropsType = {
     description: string
     img: string | undefined
     alt: string
+    link: string
 }
 
-export const Project = ({title, description, img, alt}: WorkPropsType) => {
+export const Project = ({title, description, img, alt, link}: WorkPropsType) => {
 
     return (
         <Reveal>
-        <div className={style.work}>
-            <div className={style.imageWrapper}>
-                <img className={style.photo} src={img} alt={alt}/>
-                <a className={style.workBtn}>Look</a>
-                <div className={style.background}/>
+            <div className={style.work}>
+                <div className={style.imageWrapper}>
+                    <img className={style.photo} src={img} alt={alt}/>
+                    <a className={style.workBtn} target={'_blank'} href={link}>Look</a>
+                    <div className={style.background}/>
+                </div>
+                <div className={style.workInfo}>
+                    <h3 className={style.workTitle}>{title}</h3>
+                    <p className={style.workDescription}>{description}</p>
+                </div>
             </div>
-            <div className={style.workInfo}>
-                <h3 className={style.workTitle}>{title}</h3>
-                <p className={style.workDescription}>{description}</p>
-            </div>
-        </div>
         </Reveal>
     )
 }
