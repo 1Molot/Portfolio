@@ -22,6 +22,7 @@ export const Contacts = () => {
         register,
         handleSubmit,
         reset,
+        getValues,
         formState: {errors}
     } = useForm<contactFormType>({
         defaultValues: {
@@ -33,12 +34,17 @@ export const Contacts = () => {
     });
 
     function keyEnter<T>(e: KeyboardEvent<T>) {
+        const email = getValues('email')
+        const name = getValues('name')
+        const message = getValues('message')
+
         if(e.key === 'Enter') {
-            handleSubmit(onSubmit)
+            onSubmit({email, name ,message})
         }
     }
 
     const onSubmit: SubmitHandler<contactFormType> = (data) => {
+
         const serviceId: string = 'service_ltklexe';
         const templateId: string = 'template_v9x5ah5';
         const publicKey: string = 'K-ssZwNTNRixNgoSU';
