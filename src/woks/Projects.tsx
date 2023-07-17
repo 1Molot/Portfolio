@@ -14,14 +14,14 @@ export const Projects = () => {
     const projects = [{
         title: 'Social Network',
         description: 'Social Network is an online platform that allows people to create an account, interact with other people on the website. ',
-        link: 'https://1molot.github.io/samurai-way-main/',
+        link: 'https://1molot.github.io/samurai-way-main/#/',
         img: `${Social}`,
         alt: 'Social'
     },
         {
-            title: 'TodoList',
-            description: 'TodoList  is an online platform for organizing your personal or Project tasks which can help you to increase the productivity, prioritise tasks, manage tasks effectively and improve time management.',
-            link: '#',
+            title: 'Task Manager',
+            description: 'Task Manager  is an online platform for organizing your personal or Project tasks which can help you to increase the productivity, prioritise tasks, manage tasks effectively and improve time management.',
+            link: 'https://1molot.github.io/TaskManagerRtk/#/',
             img: `${Todo}`,
             alt: 'Todo'
         }]
