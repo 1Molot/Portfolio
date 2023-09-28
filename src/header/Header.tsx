@@ -3,7 +3,6 @@ import style from './Header.module.css';
 import {Nav} from "../nav/Nav";
 import {BurgerNav} from "../burgerNav/BurgerNav";
 
-
 export const Header = () => {
 
     return (

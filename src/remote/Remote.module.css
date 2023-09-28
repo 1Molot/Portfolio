@@ -4,17 +4,6 @@
     position: relative;
 }
 
-/*.remo {*/
-/*    text-align: center;*/
-/*    color: #fff;*/
-/*    text-transform: capitalize;*/
-/*    font-family: 'Josefin Sans', sans-serif;*/
-/*    font-size: 22px;*/
-/*    line-height: 1.2;*/
-/*    letter-spacing: 3px;*/
-/*    margin-top: 30px;*/
-/*}*/
-
 .remoteContainer {
     justify-content: flex-start;
     flex-direction: column;
@@ -36,7 +25,6 @@
     line-height: 1.75;
     padding: 8px 10px;
     text-transform: uppercase;
-    /*margin-bottom: 10px;*/
     transition: all 0.2s ease-in;
     margin-top: 30px;
 

@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import styleContainer from "../common/styles/Container.module.css";
 import style from './BurgerNav.module.css';
 import ReactImg from "../assets/img/ReactImg.svg";
-import {Fade} from "react-awesome-reveal";
 import {Link} from "react-scroll";
 import BurgerIcon from ".././assets/img/BurgerIcon.svg";
 import CloseIcon from ".././assets/img/CloseIcon.svg";
@@ -22,7 +21,6 @@ export const BurgerNav = () => {
                 <img className={style.logoPhoto} src={ReactImg} alt={'logo'}/>
                 <p className={style.textTyping}>Maksim Sinkevich</p>
             </div>
-            {/*<Fade direction={"top-left"}>*/}
             <div onClick={onBurgerBtnClick} className={style.burgerBtn}>{menuIsOpen ? <img src={CloseIcon}/> :
                 <img src={BurgerIcon}/>}</div>
             <ul className={menuIsOpen ? `${style.linksList} ${style.show}` : style.linksList}>
@@ -43,7 +41,6 @@ export const BurgerNav = () => {
                           duration={500}>Contacts</Link>
                 </li>
             </ul>
-            {/*</Fade>*/}
         </div>
     )
 }

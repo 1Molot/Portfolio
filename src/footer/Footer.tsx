@@ -16,7 +16,7 @@ export const Footer = () => {
         link: 'https://github.com/1Molot',
         alt: 'GitHub'
     }, {
-        link: 'https://www.linkedin.com/in/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC-%D1%81%D0%B8%D0%BD%D1%8C%D0%BA%D0%B5%D0%B2%D0%B8%D1%87-747892281/',
+        link: 'https://www.linkedin.com/in/maximsinkevich/',
         img: `${LinkedIn}`,
         alt: 'LinkedIn'
     }, {
@@ -40,7 +40,6 @@ export const Footer = () => {
                             return (
                                 <li key={index}>
                                     <a target={'_blank'} href={el.link}>
-                                        {/*{el.Title}*/}
                                         <img style={{width: 80, height: 50}} src={el.img} alt={el.alt}/>
                                     </a>
                                 </li>

@@ -8,7 +8,6 @@ import Particles from "react-tsparticles";
 import {Tilt} from 'react-tilt'
 import {Reveal} from "../common/components/Reveal/Reveal";
 
-
 export const MainInform = () => {
 
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -21,15 +20,15 @@ export const MainInform = () => {
     }, []);
 
     const defaultOptions = {
-        reverse: false,  // reverse the tilt direction
-        max: 20,     // max tilt rotation (degrees)
-        perspective: 1000,   // Transform perspective, the //lower the more extreme the tilt gets.
-        scale: 1.03,    // 2 = 200%, 1.5 = 150%, etc..
-        speed: 1000,   // Speed of the enter/exit transition
-        transition: true,   // Set a transition on enter/exit.
-        axis: null,   // What axis should be disabled. Can be X or Y.
-        reset: true,    // If the tilt effect has to be reset on exit.
-        easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+        reverse: false,
+        max: 20,
+        perspective: 1000,
+        scale: 1.03,
+        speed: 1000,
+        transition: true,
+        axis: null,
+        reset: true,
+        easing: "cubic-bezier(.03,.98,.52,.99)",
     }
 
     const name = () => {

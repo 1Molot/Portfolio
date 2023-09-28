@@ -24,7 +24,6 @@ export const Reveal = ({children, width = 'fit content'}: RevealPropsType) => {
             <motion.div
                 variants={{
                     hidden: { opacity: 0, y: -100 },
-                    // hidden: { opacity: 0, y: 75 },  //75 s nizy
                     visible: { opacity: 1, y: 0 },
                 }}
                 initial={'hidden'}

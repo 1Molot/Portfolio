@@ -1,6 +1,5 @@
 .contactsBlock {
     background-color: #343a40;
-    /*padding: 40px 0;*/
     padding-bottom: 30px;
     position: relative;
 }
@@ -30,7 +29,6 @@
 }
 
 .contactForm input, .contactForm textarea {
-    /*width: 100%;*/
     padding: 8px 10px;
     background-color: #494e54;
     box-sizing: border-box;
@@ -47,12 +45,6 @@
     line-height: 1.2;
     color: #fff;
 }
-
-/*.contactForm textarea {*/
-/*    width: 289px;*/
-/*    height: 60px;*/
-/*    resize: vertical;*/
-/*}*/
 
 .submitBtn {
     width: fit-content;

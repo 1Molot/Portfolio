@@ -4,7 +4,6 @@
     align-items: center;
     text-align: center;
     margin-top: 10px;
-    /*position: relative;*/
 }
 
 .workInfo {
@@ -76,9 +75,7 @@
     transform: translate(-50%, -50%);
     width: fit-content;
     align-self: center;
-    /*background: #161625d6;*/
     background: #5ac24e;
-    /*border: 1px solid grey;*/
     border-radius: 4px;
     color: #fff;
     cursor: pointer;

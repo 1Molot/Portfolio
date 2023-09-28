@@ -1,11 +1,10 @@
-import React, {FormEvent, KeyboardEvent, useRef} from 'react';
+import React, {KeyboardEvent} from 'react';
 import style from './Contacts.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import {Title} from "../common/components/Title/Title";
 import {Reveal} from "../common/components/Reveal/Reveal";
 import {SubmitHandler, useForm} from "react-hook-form";
-import emailjs from 'emailjs-com';
-import {EmailJSResponseStatus} from "emailjs-com";
+import emailjs, {EmailJSResponseStatus} from 'emailjs-com';
 import {toast} from "react-toastify";
 
 

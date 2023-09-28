@@ -1,8 +1,6 @@
 .skillsBlock {
-    /*padding-top: 30px;*/
     background-color: #343a40;
     padding-bottom: 30px;
-    /*border: 1px solid red;*/
     position: relative;
 }
 
@@ -11,7 +9,6 @@
 }
 
 .skills {
-    /*border: 1px solid;*/
     width: 100%;
     display: flex;
     justify-content: space-between;

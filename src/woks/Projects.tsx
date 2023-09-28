@@ -6,10 +6,7 @@ import {Title} from "../common/components/Title/Title";
 import Social from "../assets/img/Social.jpg";
 import Todo from "../assets/img/Todo.jpg";
 
-
-
 export const Projects = () => {
-
 
     const projects = [{
         title: 'Social Network',
