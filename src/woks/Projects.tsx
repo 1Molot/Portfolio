@@ -28,7 +28,7 @@ export const Projects = () => {
         }, {
             title: 'Cards Manager',
             description: 'Cards Manager is an online platform for creating cards with useful tasks, taking surveys, and sharing them. ',
-            link: 'https://cards-ek92bomjw-1molots-projects.vercel.app/login',
+            link: 'https://cards-iota-coral.vercel.app/login',
             img: `${Card}`,
             alt: 'CardsManager'
         },
