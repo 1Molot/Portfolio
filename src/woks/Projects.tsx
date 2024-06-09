@@ -9,6 +9,7 @@ import SeaFoods from "../assets/img/SeaFoods.jpg";
 import LostJeans from "../assets/img/LostJeans.jpg";
 import Plants from "../assets/img/Plants.jpg";
 import Card from "../assets/img/Card.png";
+import Travel from "../assets/img/Travel.png";
 
 export const Projects = () => {
 
@@ -51,6 +52,12 @@ export const Projects = () => {
             link: 'https://1molot.github.io/plants.github.io/',
             img: `${Plants}`,
             alt: 'Plants'
+        },{
+            title: 'Travel and Hospitality',
+            description: 'Website related to travel and hospitality.',
+            link: 'https://1molot.github.io/testLending.github.io/',
+            img: `${Travel}`,
+            alt: 'Travel and Hospitality'
         }]
 
     return (
