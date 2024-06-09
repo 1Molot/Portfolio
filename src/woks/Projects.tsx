@@ -42,7 +42,7 @@ export const Projects = () => {
         },
         {
             title: 'LostJeans',
-            description: 'Mini online store for ordering clothes, still in operation.',
+            description: 'Mini online store for ordering clothes, still in work.',
             link: 'https://1molot.github.io/lost-jersey.github.io/',
             img: `${LostJeans}`,
             alt: 'LostJeans'
