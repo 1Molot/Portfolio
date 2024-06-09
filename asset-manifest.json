@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dfee84e4.css",
-    "main.js": "/Portfolio/static/js/main.b1ea56f4.js",
+    "main.css": "/Portfolio/static/css/main.6210ad7a.css",
+    "main.js": "/Portfolio/static/js/main.baf960e3.js",
     "static/js/787.e8871c4f.chunk.js": "/Portfolio/static/js/787.e8871c4f.chunk.js",
     "static/media/SeaFoods.jpg": "/Portfolio/static/media/SeaFoods.8594b1af665215f69a18.jpg",
     "static/media/LostJeans.jpg": "/Portfolio/static/media/LostJeans.e02d053e002e23329300.jpg",
@@ -28,12 +28,12 @@
     "static/media/Material.svg": "/Portfolio/static/media/Material.734426c25d85d6f02b49b98d28ef9f03.svg",
     "static/media/JS.svg": "/Portfolio/static/media/JS.2cb10113045b7f7423443ff02d1d26d0.svg",
     "static/media/CloseIcon.svg": "/Portfolio/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
-    "main.dfee84e4.css.map": "/Portfolio/static/css/main.dfee84e4.css.map",
-    "main.b1ea56f4.js.map": "/Portfolio/static/js/main.b1ea56f4.js.map",
+    "main.6210ad7a.css.map": "/Portfolio/static/css/main.6210ad7a.css.map",
+    "main.baf960e3.js.map": "/Portfolio/static/js/main.baf960e3.js.map",
     "787.e8871c4f.chunk.js.map": "/Portfolio/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfee84e4.css",
-    "static/js/main.b1ea56f4.js"
+    "static/css/main.6210ad7a.css",
+    "static/js/main.baf960e3.js"
   ]
 }
