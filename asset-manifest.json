@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.82cf364c.css",
-    "main.js": "/Portfolio/static/js/main.baf960e3.js",
+    "main.js": "/Portfolio/static/js/main.c749336e.js",
     "static/js/787.e8871c4f.chunk.js": "/Portfolio/static/js/787.e8871c4f.chunk.js",
     "static/media/SeaFoods.jpg": "/Portfolio/static/media/SeaFoods.8594b1af665215f69a18.jpg",
+    "static/media/Travel.png": "/Portfolio/static/media/Travel.640e29aba43495268240.png",
     "static/media/LostJeans.jpg": "/Portfolio/static/media/LostJeans.e02d053e002e23329300.jpg",
     "static/media/myPhoto.jpg": "/Portfolio/static/media/myPhoto.0214aad0206bc1989b5d.jpg",
     "static/media/Social.jpg": "/Portfolio/static/media/Social.3085f317c95fbb38336c.jpg",
@@ -29,11 +30,11 @@
     "static/media/JS.svg": "/Portfolio/static/media/JS.2cb10113045b7f7423443ff02d1d26d0.svg",
     "static/media/CloseIcon.svg": "/Portfolio/static/media/CloseIcon.721b545293c6e08c0d706acd6290c3a6.svg",
     "main.82cf364c.css.map": "/Portfolio/static/css/main.82cf364c.css.map",
-    "main.baf960e3.js.map": "/Portfolio/static/js/main.baf960e3.js.map",
+    "main.c749336e.js.map": "/Portfolio/static/js/main.c749336e.js.map",
     "787.e8871c4f.chunk.js.map": "/Portfolio/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82cf364c.css",
-    "static/js/main.baf960e3.js"
+    "static/js/main.c749336e.js"
   ]
 }
