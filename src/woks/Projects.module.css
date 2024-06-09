@@ -21,8 +21,11 @@
     .skillsContainer {
         justify-content: flex-start;
     }
+}
 
+@media screen and (max-width: 950px) {
     .skills {
         flex-direction: column;
+        justify-content: center;
     }
 }
