@@ -27,7 +27,7 @@ export const Projects = () => {
             img: `${Todo}`,
             alt: 'TaskManager'
         }, {
-            title: 'Cards Manager',
+            title: 'Card Manager',
             description: 'Cards Manager is an online platform for creating cards with useful tasks, taking surveys, and sharing them. ',
             link: 'https://cards-iota-coral.vercel.app/login',
             img: `${Card}`,
